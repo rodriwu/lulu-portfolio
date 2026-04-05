@@ -96,7 +96,7 @@ export default function Home() {
         {/* Mobile: bio + cta below */}
         <div className="md:hidden">
           <div className="fade-in w-12 h-px bg-rule dark:bg-rule-dark mb-5" />
-          <p className="fade-in font-body text-[12px] leading-[1.8] text-ink-light dark:text-night-muted mb-6">
+          <p className="fade-in font-body text-base leading-[1.9] text-ink-light dark:text-night-muted mb-6">
             {t.bio}
           </p>
           <div className="fade-in">
@@ -123,7 +123,7 @@ export default function Home() {
 
           <div className="fade-in w-12 h-px bg-rule dark:bg-rule-dark mb-10" />
 
-          <p className="fade-in font-body text-sm leading-[1.9] text-ink-light dark:text-night-muted max-w-xl">
+          <p className="fade-in font-body text-base md:text-lg leading-[1.9] text-ink-light dark:text-night-muted max-w-xl">
             {t.bio}
           </p>
 
