@@ -8,14 +8,14 @@ const copy = {
   es: {
     tagline: "Escritora \u00B7 Periodista \u00B7 Autora Bilingüe",
     bio: "Periodista egresada de la Escuela de Periodismo Carlos Septién García. Escritora bilingüe con experiencia en periodismo editorial de viajes y hospitalidad de lujo. Mi pluma ha recorrido el mundo\u00A0— de los palacios flotantes de Udaipur a los rascacielos de Manhattan\u00A0— siempre en dos idiomas, siempre con la misma convicción: que cada lugar merece ser contado con la dignidad de la palabra escrita.",
-    cta: "Ver Portafolio",
+    cta: "Escríbeme",
     selected: "Obras Selectas",
     viewAll: "Ver Todas las Obras",
   },
   en: {
     tagline: "Writer \u00B7 Journalist \u00B7 Bilingual Author",
     bio: "A journalist trained at the prestigious Escuela de Periodismo Carlos Septién García. A bilingual writer with a career rooted in editorial travel journalism and luxury hospitality. My pen has traveled the world\u00A0— from the floating palaces of Udaipur to the skyscrapers of Manhattan\u00A0— always in two languages, always with the same conviction: that every place deserves to be told with the dignity of the written word.",
-    cta: "View Portfolio",
+    cta: "Get in Touch",
     selected: "Selected Works",
     viewAll: "View All Works",
   },
@@ -101,10 +101,10 @@ export default function Home() {
 
           <div className="fade-in mt-14">
             <Link
-              to="/portfolio"
-              className="inline-block font-body text-[10px] tracking-[0.35em] uppercase border border-ink dark:border-night-paper text-ink dark:text-night-paper px-8 py-3 no-underline hover:bg-ink hover:text-parchment dark:hover:bg-night-paper dark:hover:text-night transition-colors"
+              to="/contact"
+              className="font-body text-[10px] tracking-[0.35em] uppercase text-ink-lighter dark:text-night-muted no-underline hover:text-ink dark:hover:text-night-paper border-b border-ink-lighter dark:border-night-muted hover:border-ink dark:hover:border-night-paper pb-1 transition-colors"
             >
-              {t.cta}
+              {t.cta} &rarr;
             </Link>
           </div>
         </div>

@@ -1,4 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
+import { useState, useEffect, useRef } from "react";
 import { useLang } from "../context/LanguageContext";
 
 const labels = {
@@ -114,30 +115,62 @@ export default function Navbar({ dark, setDark }) {
 }
 
 function MobileMenu({ links, pathname }) {
+  const [open, setOpen] = useState(false);
+  const menuRef = useRef(null);
+
+  // Close on outside click
+  useEffect(() => {
+    if (!open) return;
+    function handleClick(e) {
+      if (menuRef.current && !menuRef.current.contains(e.target)) setOpen(false);
+    }
+    document.addEventListener("mousedown", handleClick);
+    return () => document.removeEventListener("mousedown", handleClick);
+  }, [open]);
+
+  // Close on route change
+  useEffect(() => {
+    setOpen(false);
+  }, [pathname]);
+
   return (
-    <div className="md:hidden group relative">
-      <button className="w-9 h-9 flex items-center justify-center text-ink dark:text-night-paper bg-transparent border-none cursor-pointer">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-          <line x1="3" y1="6" x2="21" y2="6" />
-          <line x1="3" y1="12" x2="21" y2="12" />
-          <line x1="3" y1="18" x2="21" y2="18" />
-        </svg>
+    <div className="md:hidden relative" ref={menuRef}>
+      <button
+        onClick={() => setOpen(!open)}
+        className="w-9 h-9 flex items-center justify-center text-ink dark:text-night-paper bg-transparent border-none cursor-pointer"
+        aria-label="Menu"
+      >
+        {open ? (
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+            <line x1="18" y1="6" x2="6" y2="18" />
+            <line x1="6" y1="6" x2="18" y2="18" />
+          </svg>
+        ) : (
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+            <line x1="3" y1="6" x2="21" y2="6" />
+            <line x1="3" y1="12" x2="21" y2="12" />
+            <line x1="3" y1="18" x2="21" y2="18" />
+          </svg>
+        )}
       </button>
-      <div className="absolute right-0 top-12 bg-parchment dark:bg-night border border-rule dark:border-rule-dark py-3 px-6 min-w-[160px] opacity-0 invisible group-focus-within:opacity-100 group-focus-within:visible transition-all z-50">
-        {links.map(({ to, label }) => (
-          <Link
-            key={to}
-            to={to}
-            className={`block py-2 font-body text-[11px] tracking-[0.25em] uppercase no-underline ${
-              pathname === to
-                ? "text-ink dark:text-night-paper"
-                : "text-ink-lighter dark:text-night-muted"
-            }`}
-          >
-            {label}
-          </Link>
-        ))}
-      </div>
+      {open && (
+        <div className="absolute right-0 top-12 bg-parchment dark:bg-night border border-rule dark:border-rule-dark py-3 px-6 min-w-[160px] z-50">
+          {links.map(({ to, label }) => (
+            <Link
+              key={to}
+              to={to}
+              onClick={() => setOpen(false)}
+              className={`block py-2 font-body text-[11px] tracking-[0.25em] uppercase no-underline ${
+                pathname === to
+                  ? "text-ink dark:text-night-paper"
+                  : "text-ink-lighter dark:text-night-muted"
+              }`}
+            >
+              {label}
+            </Link>
+          ))}
+        </div>
+      )}
     </div>
   );
 }
