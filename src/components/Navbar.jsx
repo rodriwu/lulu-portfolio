@@ -30,13 +30,14 @@ export default function Navbar({ dark, setDark }) {
   ];
 
   return (
-    <nav className="border-b border-rule dark:border-rule-dark">
+    <nav className="sticky top-0 z-50 border-b border-rule dark:border-rule-dark bg-parchment/90 dark:bg-night/90 backdrop-blur-sm">
       <div className="max-w-5xl mx-auto px-6 py-5 flex items-center justify-between">
         <Link
           to="/"
           className="font-headline text-xl md:text-2xl font-normal tracking-wider text-ink dark:text-night-paper no-underline hover:opacity-70 transition-opacity"
         >
-          Lula Romo
+          <span className="hidden md:inline">Lula Romo</span>
+          <span className="md:hidden">L.R.</span>
         </Link>
 
         <div className="flex items-center gap-6">
