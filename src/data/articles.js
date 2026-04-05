@@ -20,9 +20,9 @@ const articles = [
     bodyEn:
       "The main idea was that both rooms and public areas complement each other seamlessly, turning every corner of the hotel into a haven of sophistication. With 54 rooms and 43 suites, the very best has been carefully selected by its interior designers, combining modern and classic elements that highlight Venetian warmth with contemporary touches. Every detail—from designer furniture to premium fabrics—breathes a perfect balance between tradition and innovation.\n\nThe hotel features state-of-the-art audio and video equipment, exquisite bath products, and a butler service that guarantees privacy, comfort, and a complete hospitality experience. A timey and cosmopolitan hotel; a refuge in soft tones where comfort is guaranteed.\n\nBut without a doubt, the world-class Spa is the heart of the resort. It is one of the most recognized and important on the east coast of the United States, bringing together the best of ancestral techniques and the latest innovations in wellness and relaxation.",
     outroEs:
-      "El Acqualina permanece como uno de esos lugares que demuestran que la verdadera hospitalidad no se improvisa — se construye con intención, detalle y una comprensión profunda de lo que significa hacer sentir a alguien verdaderamente bienvenido.",
+      "Escribir sobre el Acqualina fue un ejercicio de precisión — encontrar las palabras justas para transmitir una atmósfera que se siente antes de que puedas describirla. Fue una de las primeras piezas donde sentí que mi voz bilingüe realmente encontraba su ritmo.",
     outroEn:
-      "Acqualina remains one of those places that prove true hospitality is never improvised — it is built with intention, detail, and a deep understanding of what it means to make someone feel truly welcome.",
+      "Writing about Acqualina was an exercise in precision — finding the right words to convey an atmosphere you feel before you can describe it. It was one of the first pieces where I felt my bilingual voice truly found its rhythm.",
   },
   {
     id: "atlantis",
@@ -45,9 +45,9 @@ const articles = [
     bodyEn:
       "Everything falls short when trying to describe the majesty of this resort. Every corner, every hallway, every room tells a story of splendor that surpasses all expectations. The ornamental fountains, tropical gardens, and grandiose architecture transport visitors to a world where luxury knows no bounds.\n\nThe complex houses one of the world's largest open-air aquariums, with more than 50,000 marine creatures. Guests can swim with dolphins, explore underwater ruins, and discover an aquatic universe that rivals the finest oceanariums on the planet.",
     outroEs:
-      "Atlantis no es solo un destino — es una declaración de lo que sucede cuando la imaginación humana se niega a aceptar límites. Cada visita revela algo nuevo, como si la propia leyenda siguiera escribiéndose.",
+      "Recuerdo que al escribir esta pieza el reto fue no caer en la hipérbole — el lugar ya era tan desmesurado que las palabras debían ser sobrias para ser creíbles. Aprendí que a veces el periodismo de viajes exige contención más que entusiasmo.",
     outroEn:
-      "Atlantis is not just a destination — it is a declaration of what happens when human imagination refuses to accept limits. Every visit reveals something new, as if the legend itself were still being written.",
+      "I remember the challenge of writing this piece was not falling into hyperbole — the place was already so overwhelming that the words had to be sober to be believable. I learned that sometimes travel journalism demands restraint more than enthusiasm.",
   },
   {
     id: "dubai",
@@ -70,9 +70,9 @@ const articles = [
     bodyEn:
       "The hotel features 202 duplex suites, each more spectacular than the last. The interiors gleam with 24-karat gold leaf, Italian marble, and the finest Oriental fabrics. The service is absolutely impeccable: each guest is assigned a personal butler available around the clock.\n\nFrom the rooftop helipad to the underwater restaurants, every experience at the Burj Al Arab has been designed to push the boundaries of the imaginable. It is, in every sense of the word, an experience outside of this world.",
     outroEs:
-      "Años después, Dubai ha cumplido cada una de sus promesas. El Burj Al Arab sigue siendo el estándar contra el cual se mide todo lo demás — un recordatorio de que la audacia, cuando se ejecuta con precisión, puede crear lo imposible.",
+      "Esta fue una de las piezas más desafiantes de mi carrera. ¿Cómo describes algo que se siente irreal sin que el texto mismo se vuelva inverosímil? Adaptar este artículo del español al inglés me obligó a repensar cada metáfora — lo que funciona en un idioma no siempre respira igual en otro.",
     outroEn:
-      "Years later, Dubai has fulfilled every one of its promises. The Burj Al Arab remains the standard against which everything else is measured — a reminder that audacity, when executed with precision, can create the impossible.",
+      "This was one of the most challenging pieces of my career. How do you describe something that feels unreal without the text itself becoming unbelievable? Adapting this article from Spanish to English forced me to rethink every metaphor — what works in one language does not always breathe the same way in another.",
   },
   {
     id: "el-sueno",
@@ -95,9 +95,9 @@ const articles = [
     bodyEn:
       "Built in the 18th century with beautiful colonial style, the building combines the perfection of its original design with contemporary elements of comfort and sophistication. The rooms promise warm and welcoming atmospheres, where every detail has been carefully considered to transport guests to an era of splendor.\n\nThe hotel spa offers treatments based on pre-Hispanic techniques, using local ingredients such as chocolate, vanilla, and medicinal herbs from the region. An experience that honors the rich cultural heritage of Puebla.",
     outroEs:
-      "El Sueño es prueba de que la historia y la modernidad no solo pueden convivir — pueden potenciarse mutuamente. Es el tipo de lugar que te recuerda por qué vale la pena detenerse, mirar y dejarse sorprender.",
+      "Escribir sobre Puebla siempre se siente como escribir sobre casa. Esta pieza fluyó con una naturalidad que pocas veces he experimentado — quizás porque no estaba describiendo un lugar ajeno sino redescubriendo uno propio.",
     outroEn:
-      "El Sueño is proof that history and modernity can not only coexist — they can amplify each other. It is the kind of place that reminds you why it is worth pausing, looking, and letting yourself be surprised.",
+      "Writing about Puebla always feels like writing about home. This piece flowed with a naturalness I have rarely experienced — perhaps because I was not describing an unfamiliar place but rediscovering one of my own.",
   },
   {
     id: "musica-sentidos",
@@ -120,9 +120,9 @@ const articles = [
     bodyEn:
       "Surrounded by the sea and near La Ropa beach in Zihuatanejo, this boutique hotel with just 25 suites has earned a place among the world's finest for its architecture that embraces nature, its noble materials, and its authentically Mexican spirit.\n\nEach suite is named after a Mexican song, and the music of the waves becomes the perfect soundtrack for a stay where the senses awaken with every sunrise over the Pacific.",
     outroEs:
-      "La Casa que Canta no necesita gritar para ser escuchada. Su voz es el mar, su melodía es la brisa, y su canción permanece contigo mucho después de que te hayas ido.",
+      "Esta pieza me enseñó el valor del silencio en la escritura. No todo necesita ser dicho — a veces, dejar un espacio vacío en el texto es la forma más honesta de describir la paz que se siente en un lugar así.",
     outroEn:
-      "La Casa que Canta does not need to shout to be heard. Its voice is the sea, its melody is the breeze, and its song stays with you long after you have gone.",
+      "This piece taught me the value of silence in writing. Not everything needs to be said — sometimes, leaving an empty space in the text is the most honest way to describe the peace you feel in a place like this.",
   },
   {
     id: "montana",
@@ -145,9 +145,9 @@ const articles = [
     bodyEn:
       "The hotel boasts original Art Deco splendor and authentic decorative elements that make it a unique architectural gem. Its interiors preserve all that period character, while its amenities satisfy the most demanding 21st-century traveler.\n\nFrom its windows, one can contemplate one of the most impressive panoramas of the Swiss Alps, with Lake Lucerne shining under the Alpine light. Many of the hotel's original elements remain in use, from the elevators to the wall sconces.",
     outroEs:
-      "El Montana demuestra que la elegancia verdadera no necesita reinventarse — solo necesita ser preservada con respeto y compartida con generosidad.",
+      "Investigar para esta pieza fue como abrir un libro de historia del diseño. Cada detalle del hotel merecía su propio párrafo, y el verdadero desafío fue elegir qué dejar fuera. A veces editar es más difícil que escribir.",
     outroEn:
-      "Montana proves that true elegance does not need to reinvent itself — it only needs to be preserved with respect and shared with generosity.",
+      "Researching for this piece was like opening a design history book. Every detail in the hotel deserved its own paragraph, and the real challenge was choosing what to leave out. Sometimes editing is harder than writing.",
   },
   {
     id: "morelos",
@@ -170,9 +170,9 @@ const articles = [
     bodyEn:
       "Embracing an ecological philosophy and the simple beauty of this remarkable setting, Casa de los Árboles offers an experience where architecture merges organically with nature. Noble materials—wood, stone, clay—are the protagonists of every space.\n\nThe silence of the forest, the birdsong at dawn, and the breeze that slips between the trees create an atmosphere of absolute peace that invites deep reflection and rest.",
     outroEs:
-      "Hay lugares que te cambian sin que lo notes. La Casa de los Árboles es uno de ellos — un espacio donde el silencio habla más fuerte que cualquier palabra.",
+      "Este artículo fue diferente a todos los demás. No podía escribirlo desde la distancia profesional habitual — el lugar me pedía ser honesta, casi vulnerable. Creo que se nota en cada línea, y no me arrepiento.",
     outroEn:
-      "There are places that change you without you noticing. Casa de los Árboles is one of them — a space where silence speaks louder than any word.",
+      "This article was different from all the others. I could not write it from the usual professional distance — the place asked me to be honest, almost vulnerable. I think it shows in every line, and I do not regret it.",
   },
   {
     id: "nafplia",
@@ -195,9 +195,9 @@ const articles = [
     bodyEn:
       "With more than 84 rooms and suites, each with breathtaking views over the Gulf of Argos, Nafplia Palace is a refuge that combines Greece's millennia-old history with contemporary luxury. Every corner of the hotel breathes history, from the stone walls to the terraces overlooking the Aegean Sea.\n\nThe hotel's gastronomy pays tribute to Greek culinary tradition with fresh local ingredients, virgin olive oil, and wines from the hills of the Peloponnese.",
     outroEs:
-      "El Peloponeso guarda secretos que solo se revelan a quienes se toman el tiempo de escuchar. El Nafplia Palace es la puerta de entrada a esos secretos.",
+      "Grecia fue uno de esos encargos que me recordó por qué elegí esta profesión. La presión de hacer justicia a tantos siglos de historia con unas pocas páginas de revista me obligó a crecer como escritora. Fue humillante y hermoso al mismo tiempo.",
     outroEn:
-      "The Peloponnese holds secrets that reveal themselves only to those who take the time to listen. Nafplia Palace is the gateway to those secrets.",
+      "Greece was one of those assignments that reminded me why I chose this profession. The pressure of doing justice to so many centuries of history within a few magazine pages forced me to grow as a writer. It was humbling and beautiful at the same time.",
   },
   {
     id: "new-york-palace",
@@ -220,9 +220,9 @@ const articles = [
     bodyEn:
       "Rising nearly 55 stories, with more than 900 rooms and suites offering the most spectacular views of the entire city, the New York Palace is an institution of New York hospitality. The grand tower and its historic salons with the most sophisticated services make this hotel an unforgettable experience.\n\nThe rooms reflect classic elegance with a contemporary touch, where marble, tapestries, and chandeliers coexist with the most advanced technology of the 21st century.",
     outroEs:
-      "En una ciudad que nunca deja de reinventarse, el New York Palace es un ancla — un lugar que te recuerda que algunas cosas son mejores cuando permanecen fieles a lo que siempre fueron.",
+      "Nueva York intimida, incluso cuando escribes sobre ella. Recuerdo haber reescrito el primer párrafo más de diez veces buscando un ángulo que no sonara a guía turística. Al final, decidí contar el hotel como lo sentí: imponente pero acogedor, grandioso pero humano.",
     outroEn:
-      "In a city that never stops reinventing itself, the New York Palace is an anchor — a place that reminds you that some things are better when they remain true to what they always were.",
+      "New York intimidates, even when you are writing about it. I remember rewriting the first paragraph more than ten times, searching for an angle that would not sound like a travel guide. In the end, I decided to tell the hotel as I felt it: imposing yet welcoming, grand yet human.",
   },
   {
     id: "oasis-caribe",
@@ -245,9 +245,9 @@ const articles = [
     bodyEn:
       "The property extends across a 16-hectare estate of mature tropical gardens, with a pristine white sand beach as its backdrop. The 112 rooms and suites are designed with exquisite taste, combining Caribbean colonial elegance with every modern convenience.\n\nThe hotel features one of the finest golf courses in the Caribbean and a 47,000-square-foot spa considered one of the best in the world.",
     outroEs:
-      "Sandy Lane no es solo un hotel — es una filosofía de vida: que el verdadero privilegio no está en el exceso, sino en la quietud bien cuidada.",
+      "La versión en inglés de este artículo fue la primera que escribí, lo cual era inusual para mí. Algo en la cadencia del Caribe británico me pedía empezar en inglés y luego encontrar el equivalente emocional en español. Fue un experimento que cambió mi proceso creativo.",
     outroEn:
-      "Sandy Lane is not just a hotel — it is a philosophy of life: that true privilege lies not in excess, but in well-tended tranquility.",
+      "The English version of this article was the first one I wrote, which was unusual for me. Something in the cadence of the British Caribbean called for me to start in English and then find the emotional equivalent in Spanish. It was an experiment that changed my creative process.",
   },
   {
     id: "sabor-caribe",
@@ -270,9 +270,9 @@ const articles = [
     bodyEn:
       "Bahamas, a word that defines the country as one of 'low tides,' offers in this 21st Century all comforts and alternatives to make a real adventure of a holiday. Food, culture, entertainment, sun-drenched beaches, water activities, and a hospitality that defines the character of a destination that truly has it all.\n\nThe pastel colors decorating colonial cities, traditional crafts, and the warmth of its people turn every visit into a profoundly human experience.",
     outroEs:
-      "Las Bahamas son más que un destino de playa — son un recordatorio de que los lugares más bellos del mundo son también los que tienen las historias más profundas esperando ser contadas.",
+      "Este fue uno de los pocos artículos donde escribí sobre un destino completo y no solo un hotel. El reto era diferente: capturar la identidad de un archipiélago entero en pocas páginas. Me obligó a pensar como cronista, no solo como periodista de viajes.",
     outroEn:
-      "The Bahamas is more than a beach destination — it is a reminder that the most beautiful places in the world are also the ones with the deepest stories waiting to be told.",
+      "This was one of the few articles where I wrote about an entire destination rather than a single hotel. The challenge was different: capturing the identity of a whole archipelago in just a few pages. It forced me to think like a chronicler, not just a travel journalist.",
   },
   {
     id: "taj-lake-palace",
@@ -295,9 +295,9 @@ const articles = [
     bodyEn:
       "Set on Lake Pichola, just 40 minutes from the airport, this exquisite hotel sits like a reflection of the Aravalli Hills. This floating palace is said to be one of the most romantic constructions in the world, originally built in 1746 as a royal residence of the Mewar dynasty.\n\nEach of its 83 rooms and suites has been individually decorated with Rajasthani art and antiques, creating an atmosphere of timeless luxury that honors India's cultural heritage.",
     outroEs:
-      "El Taj Lake Palace no es solo un hotel — es un poema escrito en mármol, agua y luz. Es el tipo de lugar que te hace creer que la belleza absoluta es posible.",
+      "De todas las piezas que he escrito, esta es quizás la más cercana a mi corazón. India me cambió como persona y como escritora. Cuando terminé el artículo, supe que había dejado un pedazo de mí en cada palabra — y que eso era exactamente lo que el texto necesitaba.",
     outroEn:
-      "The Taj Lake Palace is not just a hotel — it is a poem written in marble, water, and light. It is the kind of place that makes you believe absolute beauty is possible.",
+      "Of all the pieces I have written, this is perhaps the closest to my heart. India changed me as a person and as a writer. When I finished the article, I knew I had left a piece of myself in every word — and that was exactly what the text needed.",
   },
   {
     id: "valley-ho",
@@ -320,9 +320,9 @@ const articles = [
     bodyEn:
       "Restored with a faithful eye to its mid-century modern heritage, Hotel Valley Ho captures the essence of 1950s and 60s glamour with every contemporary convenience. Its clean lines, vibrant colors, and open spaces pay tribute to an era of optimism and effortless elegance.\n\nThe pool, surrounded by private cabanas and retro-designed loungers, is the hotel's social hub, where guests from around the world gather under the Arizona desert sun.",
     outroEs:
-      "El Valley Ho nos recuerda que el estilo verdadero no tiene fecha de caducidad. Lo que fue elegante en los años cincuenta sigue siéndolo hoy — porque la honestidad en el diseño nunca pasa de moda.",
+      "El Valley Ho me enseñó que un buen artículo de viajes no describe paredes y muebles — describe sensaciones. Pasé más tiempo eligiendo adjetivos para esta pieza que para cualquier otra. Cada palabra tenía que sentirse tan cuidada como el propio hotel.",
     outroEn:
-      "Valley Ho reminds us that true style has no expiration date. What was elegant in the 1950s remains so today — because honesty in design never goes out of fashion.",
+      "Valley Ho taught me that a good travel article does not describe walls and furniture — it describes sensations. I spent more time choosing adjectives for this piece than for any other. Every word had to feel as carefully considered as the hotel itself.",
   },
   {
     id: "marina-mandarin",
@@ -345,9 +345,9 @@ const articles = [
     bodyEn:
       "The hotel offers 575 rooms and suites with panoramic views of Marina Bay or the vibrant city skyline. Its interior design combines Asian sophistication with Western comfort, creating spaces that invite both rest and contemplation.\n\nThe hotel's culinary offerings reflect Singapore's diverse food culture, with restaurants ranging from fine Chinese cuisine to innovative contemporary Asian fusion.",
     outroEs:
-      "El Marina Mandarin es prueba de que cuando Oriente y Occidente convergen con intención y respeto mutuo, el resultado puede ser extraordinario.",
+      "Singapur fue mi primer encargo en Asia y recuerdo la presión que sentí por capturar algo tan diferente a todo lo que conocía. Tuve que soltar mis referencias occidentales y dejar que el lugar me dictara su propio lenguaje. Esa lección me acompaña hasta hoy.",
     outroEn:
-      "The Marina Mandarin is proof that when East and West converge with intention and mutual respect, the result can be extraordinary.",
+      "Singapore was my first assignment in Asia and I remember the pressure I felt to capture something so different from everything I knew. I had to let go of my Western references and let the place dictate its own language. That lesson stays with me to this day.",
   },
 ];
 
