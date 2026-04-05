@@ -62,7 +62,7 @@ const articles = [
     introEn:
       "Dubai was just beginning to position itself as a destination of another caliber when I wrote this piece. The Burj Al Arab, with its unmistakable silhouette, had become the symbol of a city that refused to be ordinary. I wanted to capture that ambition.",
     excerptEs:
-      "Ahora mismo, Dubai se ha convertido en el destino exótico más buscado del mundo. De una arena blanca, cálida e iluminada todo el año, es un concreto seleccionado por el Océano Índico. Y ahora con la presencia de un hito más: la Torre Eiffel de Dubai, y la Torre Eiffel, suspendida a 321 metros sobre una revolución de vida de lujo y de estilo que sigue y que da sentido de todo el planeta.",
+      "Ahora mismo, Dubai se ha convertido en el destino turístico por excelencia para todos aquellos que buscan el álmax en cuanto a lujo y atención en un exótico destino; con la promesa de no encontrar nada parecido en ningún otro lugar del mundo, el Burj Al Arab se yergue, absolutamente majestuoso, en el lugar de honor de esa lista.",
     excerptEn:
       "Nowadays, Dubai has become one of the most exclusive destinations in the world. Its stunning architecture, breathtaking luxury, and world-class hospitality make it different from any other modern city. At the top of the list, the Burj Al Arab—the tallest hotel in the world at 321 meters—rises on its own man-made island like a sail billowing against the Arabian sky.",
     bodyEs:
@@ -112,7 +112,7 @@ const articles = [
     introEn:
       "Zihuatanejo has something few destinations in the world possess: an authenticity that cannot be manufactured. La Casa que Canta embodies that essence. I wrote this piece after a stay that reminded me that true luxury is not always ostentatious — sometimes, it is simply honest.",
     excerptEs:
-      "A partir del inicio del nuevo siglo, el concepto de hotel en el respecto de gran lujo se ha convertido en un refugio diverso para personalidades de grandes negocios e inigualables experiencias para comunión con la naturaleza. La Casa que Canta nació con 13 años de vida en este bello puerto del Pacífico mexicano.",
+      "A partir del inicio del nuevo siglo, el concepto de hotel pequeño de gran lujo se fue convirtiendo en el refugio favorito para personajes de todos los ámbitos, una especie de oasis aislado de grandes concentraciones de ruido y gente, y Zihuatanejo es uno de los lugares por excelencia para encontrar esa paz y comunión con la naturaleza, de la mano del lujo y excelencia en servicio. La Casa que Canta nació hace casi 15 años en esos bellos parajes del Pacífico mexicano, con el oficio de proporcionarle al viajero la experiencia sensorial más deliciosa.",
     excerptEn:
       "When the new Century started, the concept of a new luxury hotel became practically unique. A small dream hotel became something of itself, and today, after 13 years in this beautiful port of the Mexican Pacific, La Casa que Canta remains one of the most intimate and enchanting retreats in the world.",
     bodyEs:
@@ -137,7 +137,7 @@ const articles = [
     introEn:
       "Lucerne is one of those European cities that seem to exist outside of time. Hotel Montana, with its fidelity to original Art Deco, struck me as the perfect metaphor for that quality — a place where the past is preserved not as a museum, but as a living experience.",
     excerptEs:
-      "Si las empresas la presentan, es al decir, el diseño hotelero es un impresionante viaje por las diferentes corrientes artísticas que se suceden a lo largo del tiempo. El Art Deco Hotel Montana, en la bellísima Lucerna en Suiza central, es un magnífico ejemplo de la arquitectura de los años 1920s.",
+      "Sin importar la geografía o el idioma, el servicio con que los grandes hoteles miman a sus huéspedes puede tener similares características; sin embargo, un importante complemento para que la estancia se convierta en inolvidable lo es sin duda el entorno: que el sentido de la vista se vea halagado todo el tiempo dentro de un hotel singular, cierra el círculo y todo fluye en perfección. Eso pasa en el Art Deco Hotel Montana, en la bellísima Lucerna, en Suiza central.",
     excerptEn:
       "Art, design, photography, and architecture: the history that makes a true hotel is indeed a remarkable journey through all the major movements. The Art Deco Hotel Montana, in the beautiful city of Lucerne in central Switzerland, was built in the early 1920s and has been lovingly restored, maintaining its original splendor and charm.",
     bodyEs:
@@ -162,7 +162,7 @@ const articles = [
     introEn:
       "In an increasingly noisy world, Casa de los Árboles represented something I cared about deeply: the possibility that luxury and sustainability could walk hand in hand. This article was my attempt to capture that harmony.",
     excerptEs:
-      "Continuando el perfil de una nueva generación de destinos de descanso, y con la convicción de personas que aman el equilibrio y la tranquilidad, la Casa de los Árboles se ha convertido en un lugar único. Arquitectura en los más nobles materiales, todo divo entre la naturaleza y la mano del hombre, resulta un lugar que inspira el cuidado por el entorno con este mágico bosque.",
+      "Continuando a partir de una casa de descanso hasta alcanzar hoy día casi 60 suites de lujo, la Casa de los Árboles es la creación de personas que aman el equilibrio y cuya consigna se concreta en un tema básico: la tranquilidad. La manera de transmitirla a todos los que llegan a hospedarse inicia entonces en los colores, olores y materiales: todos ellos marco para el objeto tema del hotel: los árboles.",
     excerptEn:
       "Located in a lush forest setting in the heart of Morelos, Casa de los Árboles is a place for reconnection. Its eco-friendly architecture, innovative use of organic materials, and the deep serenity of its natural surroundings make it one of the most enchanting escapes from the everyday rush of modern life.",
     bodyEs:
@@ -187,7 +187,7 @@ const articles = [
     introEn:
       "Greece has always fascinated me — its history, its light, its relationship with the sea. Nafplia Palace gave me the opportunity to write about a place where every stone tells a story spanning centuries, and where hospitality feels like an act of cultural inheritance.",
     excerptEs:
-      "Sumergirse en la historia con Nafplio, enclavado en la más bella costa al sur del país, fue la primera capital de Grecia. Ocupada desde hace milenios, la acrópolis de Acronafplia es su principal legado del periodo bizantino. Al centro de su propia historia se encuentra el Nafplia Palace, un hotel que promete y cautiva al viajero más exigente.",
+      "Cuenta la historia que Nafplion, enclave en lo alto de una colina al sur del país, fue la primera capital de Grecia. Ocupada desde la Era Neolítica, se creó desde el principio como una fortaleza con varios castillos para protegerla de invasores. Al paso del tiempo floreció, fue saqueada, renació de entre las cenizas de guerras y gobernantes, fue prisión del estado; finalmente, hace poco más de 40 años, se convirtió en lo que hoy propios y extraños admiran sin cesar: el Nafplia Palace, hotel de gran lujo y distinción.",
     excerptEn:
       "The love story with Nafplio—a romantic city on the very first capital of Greece, huddled since the Acropolis atop the peninsula of Acronafplia. Over the ages it evolved through Byzantine, Frankish, Venetian, and Ottoman rulers, and now it has emerged magnificently as the charming town of Nafplio. The Nafplia Palace sits majestically above it all.",
     bodyEs:
@@ -212,7 +212,7 @@ const articles = [
     introEn:
       "New York will always be New York — a city that makes no apologies. The New York Palace intrigued me because it represented something rare in Manhattan: a hotel that does not try to be modern at all costs, but instead embraces its heritage with pride.",
     excerptEs:
-      "Qué interés en contar la Catedral de San Patricio, el Centro Rockefeller, los teatros de Broadway y la Quinta Avenida forman parte del centro metálico de Manhattan, en su peor punto pone la mágica metrópoli. El New York Palace Hotel convierte a la Avenida Madison, una de las más importantes y lujosas de toda la ciudad, en un punto de protocolo y lujo incomparables.",
+      "¿Qué tienen en común la Catedral de San Patricio, el Centro Rockefeller, los teatros de Broadway y la Quinta Avenida? Dos cosas: la primera es que forman parte del centro neurálgico de Manhattan, en la ciudad cosmopolita por excelencia del mundo, Nueva York; y la segunda, que a pocos pasos de ellos está situado uno de los mejores y más espléndidos hoteles de la ciudad, el New York Palace Hotel.",
     excerptEn:
       "Where Broadway sparkles and the Rockefeller Center stands behind St. Patrick's Cathedral and the Fifth Avenue—this is the very heart of Manhattan. The New York Palace Hotel occupies one of the most privileged spots in the city, transforming Madison Avenue into a landmark of unparalleled protocol and luxury.",
     bodyEs:
@@ -237,7 +237,7 @@ const articles = [
     introEn:
       "Barbados has a quiet sophistication that sets it apart from the rest of the Caribbean. Sandy Lane embodies that quality. I wrote this piece fascinated by how a hotel can simultaneously be a refuge from the world and a window onto it.",
     excerptEs:
-      "Descubierta en 2002 con su exclusivo lugar en las Barbados, en el mundo, Sandy Lane, uno de los más especiales hoteles recogidos en todo el hemisferio. Sandy Lane, bella construcción de estilo diplomático del viejo siglo, se concibió como un punto de partida: su elegancia y su posición resaltaron desde un primer momento.",
+      "Diciembre de 2002 es una fecha clave en la isla Barbados, en el exótico y precioso Mar Caribe: fue en esa fecha que Sandy Lane, uno de los más espectaculares hoteles de este lado del mundo, reinició sus operaciones totalmente remodelado, cuarenta años luego de su apertura original. Sandy Lane, bellísima construcción en estilo plantación del siglo XVIII, está ubicada en terrenos donde antiguamente se cosechaba azúcar; desde su inauguración como hotel, en 1961, se estableció como un parte aguas en cuanto a confort y excelencia.",
     excerptEn:
       "Discovered in 2002 as a gem in Barbados, Sandy Lane is one of the most particular hotels in the world. Its gorgeous architecture draws inspiration from the rich colonial heritage, while its modern amenities and world-class service create an unforgettable Caribbean experience.",
     bodyEs:
@@ -287,7 +287,7 @@ const articles = [
     introEn:
       "India is a place that transforms you. There is no way to visit Udaipur and return as the same person. The Taj Lake Palace, floating on Lake Pichola like a dream of white marble, was perhaps the most poetic space I have ever had the privilege of documenting.",
     excerptEs:
-      "Si alguna vez se visitan las hermosas ciudades de la India, donde la tradición, arquitectura y el color se vuelven un lugar tan maravilloso que se puede volver cada vez más romántico, siempre Udaipur será como su nombre lo indica un precioso hotel: el Taj Lake Palace.",
+      "Si alguna vez visitas cualquiera de las hermosas ciudades de la India, donde la tradición, arquitectura y riqueza cultural se aprecian dondequiera, no puedes dejar de pasar Udaipur. Llamada por cierto la ciudad de los lagos, un destino entre los más románticos que puedas imaginar y que, entre todas las joyas que la adornan, cuenta con un maravilloso hotel construido expresamente para hacer realidad cualquier sueño.",
     excerptEn:
       "If ever you go and travel through all of the beautiful cities in India, where tradition meets architecture and dazzling color at every turn, Udaipur can never disappoint. The Taj Lake Palace—floating like a white marble dream on the waters of Lake Pichola—is as magical as its name suggests.",
     bodyEs:
@@ -312,7 +312,7 @@ const articles = [
     introEn:
       "Mid-century modern design has always struck me as one of the most honest expressions of American architecture. Hotel Valley Ho is a living tribute to that era — restored with a level of respect that few renovations manage to achieve.",
     excerptEs:
-      "Es cuando a cada inicio de cada época los ha demostrado que dejar como era viernes, y que lo hace nunca enfrenta, es mejor ejemplo que en el caso del Hotel Valley Ho. En esplendor, hace más de un año y luego a imagen de sus portales con una agresiva gracia de punto. En sus habitaciones y suites, este esplendido hotel de 194 habitaciones fue restaurado para ser el lugar favorito para una escapada privada e inolvidable.",
+      "En cuanto a moda, este inicio de siglo nos ha demostrado que ésta nunca muere, y que lo que antes estuvo en boga, nunca enfrenta el olvido, es mejor ejemplo que en el caso del Hotel Valley Ho. En esplendor, hace más de un año y luego de una millonaria y completa remodelación, vuelve a otorgar a Scottsdale, en la Arizona del gran estilo, el reconocimiento de ser el lugar favorito para una escapada privada e inolvidable.",
     excerptEn:
       "A few fashion-savvy travelers have always known what has only just become clear to the rest of us: mid-century modern architecture and the iconic Hotel Valley Ho were made for each other. In Scottsdale, Arizona, this recently renovated gem of 194 rooms and suites has become a favorite escape for those seeking timeless style.",
     bodyEs:
