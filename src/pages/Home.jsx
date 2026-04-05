@@ -52,7 +52,7 @@ export default function Home() {
           }`}
         >
           <div
-            className="w-[220px] lg:w-[280px] h-[220px] lg:h-[280px] border-[3px] border-ink/10 dark:border-night-paper/10 shadow-[8px_8px_0px_0px_rgba(0,0,0,0.04)] dark:shadow-[8px_8px_0px_0px_rgba(255,255,255,0.03)] overflow-hidden"
+            className="w-[220px] lg:w-[280px] h-[220px] lg:h-[280px] border-[3px] border-ink/10 dark:border-night-paper/10 shadow-[8px_8px_0px_0px_rgba(0,0,0,0.04)] dark:shadow-[8px_8px_0px_0px_rgba(255,255,255,0.03)] overflow-hidden pointer-events-auto hover:scale-105 transition-transform duration-300"
             style={{ transform: fromSplash ? undefined : "rotate(3deg)" }}
           >
             <img
@@ -70,7 +70,7 @@ export default function Home() {
           }`}
         >
           <div
-            className="w-[140px] h-[140px] border-[3px] border-ink/10 dark:border-night-paper/10 overflow-hidden"
+            className="w-[140px] h-[140px] border-[3px] border-ink/10 dark:border-night-paper/10 overflow-hidden hover:scale-105 transition-transform duration-300"
             style={{ transform: fromSplash ? undefined : "rotate(2deg)" }}
           >
             <img

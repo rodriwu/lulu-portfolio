@@ -4,12 +4,12 @@ import { useLang } from "../context/LanguageContext";
 
 const copy = {
   es: {
-    label: "Sobre la Autora",
+    label: "Sobre Mí",
     bio: [
-      "Maria de Lourdes Romo López — conocida en el mundo editorial como Lula Romo — es periodista de formación y escritora de vocación. Egresada de la prestigiosa Escuela de Periodismo Carlos Septién García, una de las instituciones más reconocidas de México en la formación de comunicadores, Lula forjó su carrera en el exigente mundo del periodismo editorial impreso.",
-      "Durante años, su pluma se especializó en periodismo de viajes y hospitalidad de lujo, colaborando con publicaciones editoriales donde sus reportajes bilingües — redactados con igual maestría en español e inglés — recorrieron los destinos más exclusivos del mundo. Desde los palacios flotantes de Udaipur hasta la majestuosidad del Burj Al Arab en Dubai; desde las playas de Barbados hasta las calles coloniales de Puebla, su trabajo capturó la esencia de cada lugar con una prosa literaria, sobria y evocadora.",
-      "Completamente bilingüe, Lula ha ejercido también como profesora de inglés y español, una faceta que refleja su profundo amor por los idiomas y su habilidad única para adaptar sus propias obras de un idioma al otro sin perder el tono, la cadencia ni la intención original del texto. Sus artículos no son traducciones: son adaptaciones literarias realizadas por la misma autora, cada una pensada para resonar con su audiencia respectiva.",
-      "Después de algunos años alejada del mundo editorial, Lula regresa ahora al ámbito de la escritura para presentarse en el espacio digital — un terreno nuevo para una periodista de formación tradicional, pero un paso natural para quien entiende que las historias bien contadas trascienden cualquier formato.",
+      "Soy periodista de formación y escritora de vocación. Egresada de la prestigiosa Escuela de Periodismo Carlos Septién García, una de las instituciones más reconocidas de México en la formación de comunicadores, forjé mi carrera en el exigente mundo del periodismo editorial impreso.",
+      "Durante años, mi pluma se especializó en periodismo de viajes y hospitalidad de lujo, colaborando con publicaciones editoriales donde mis reportajes bilingües — redactados con igual maestría en español e inglés — recorrieron los destinos más exclusivos del mundo. Desde los palacios flotantes de Udaipur hasta la majestuosidad del Burj Al Arab en Dubai; desde las playas de Barbados hasta las calles coloniales de Puebla, mi trabajo capturó la esencia de cada lugar con una prosa literaria, sobria y evocadora.",
+      "Completamente bilingüe, he ejercido también como profesora de inglés y español, una faceta que refleja mi profundo amor por los idiomas y mi habilidad para adaptar mis propias obras de un idioma al otro sin perder el tono, la cadencia ni la intención original del texto. Mis artículos no son traducciones: son adaptaciones literarias donde cada versión está pensada para resonar con su audiencia respectiva.",
+      "Después de algunos años alejada del mundo editorial, regreso ahora al ámbito de la escritura para presentarme en el espacio digital — un terreno nuevo para una periodista de formación tradicional, pero un paso natural para quien entiende que las historias bien contadas trascienden cualquier formato.",
     ],
     education: "Formación",
     educationVal: "Escuela de Periodismo Carlos Septién García\nPeriodismo",
@@ -22,12 +22,12 @@ const copy = {
     credentialsTitle: "Trayectoria",
   },
   en: {
-    label: "About the Author",
+    label: "About Me",
     bio: [
-      "Maria de Lourdes Romo López — known in the editorial world as Lula Romo — is a journalist by training and a writer by vocation. A graduate of the prestigious Escuela de Periodismo Carlos Septién García, one of Mexico's most distinguished institutions for the formation of communicators, Lula built her career in the demanding world of print editorial journalism.",
-      "For years, her pen specialized in luxury travel and hospitality journalism, contributing to editorial publications where her bilingual features — written with equal mastery in Spanish and English — traversed the most exclusive destinations on earth. From the floating palaces of Udaipur to the majesty of the Burj Al Arab in Dubai; from the beaches of Barbados to the colonial streets of Puebla, her work captured the essence of each place with literary, sober, and evocative prose.",
-      "Fully bilingual, Lula has also served as an English and Spanish teacher — a facet that reflects her deep love for languages and her unique ability to adapt her own works from one language to the other without losing the tone, cadence, or original intent of the text. Her articles are not translations: they are literary adaptations crafted by the same author, each one designed to resonate with its respective audience.",
-      "After a few years away from the editorial world, Lula now returns to the realm of writing to introduce herself to the digital space — new territory for a traditionally trained journalist, but a natural step for someone who understands that well-told stories transcend any format.",
+      "I am a journalist by training and a writer by vocation. A graduate of the prestigious Escuela de Periodismo Carlos Septién García, one of Mexico's most distinguished institutions for the formation of communicators, I built my career in the demanding world of print editorial journalism.",
+      "For years, my pen specialized in luxury travel and hospitality journalism, contributing to editorial publications where my bilingual features — written with equal mastery in Spanish and English — traversed the most exclusive destinations on earth. From the floating palaces of Udaipur to the majesty of the Burj Al Arab in Dubai; from the beaches of Barbados to the colonial streets of Puebla, my work captured the essence of each place with literary, sober, and evocative prose.",
+      "Fully bilingual, I have also served as an English and Spanish teacher — a facet that reflects my deep love for languages and my ability to adapt my own works from one language to the other without losing the tone, cadence, or original intent of the text. My articles are not translations: they are literary adaptations where each version is designed to resonate with its respective audience.",
+      "After a few years away from the editorial world, I now return to the realm of writing to introduce myself to the digital space — new territory for a traditionally trained journalist, but a natural step for someone who understands that well-told stories transcend any format.",
     ],
     education: "Education",
     educationVal: "Escuela de Periodismo Carlos Septién García\nJournalism",
@@ -59,33 +59,50 @@ export default function About() {
 
   return (
     <main className="bg-parchment dark:bg-night min-h-screen">
-      <section className="max-w-3xl mx-auto px-6 pt-20 pb-24 md:pt-32 md:pb-32">
-        <p className="fade-in font-body text-[10px] tracking-[0.45em] uppercase text-ink-lighter dark:text-night-muted mb-6 text-center">
-          {t.label}
-        </p>
-
-        <h1 className="fade-in font-headline text-5xl md:text-8xl lg:text-[9rem] font-normal text-ink dark:text-night-paper text-center leading-[0.85] tracking-tight mb-8">
-          Maria de
-          <br />
-          Lourdes
-        </h1>
-
-        {/* Portrait — small, humble */}
-        <div className="fade-in flex justify-center mb-6">
-          <div className="w-[64px] h-[64px] border-2 border-ink/15 dark:border-night-paper/15">
+      <section className="relative max-w-4xl mx-auto px-6 pt-20 pb-24 md:pt-32 md:pb-32 overflow-hidden">
+        {/* Portrait — desktop: left side, 30vw */}
+        <div className="hidden md:block fade-in absolute left-6 lg:left-10 top-24 lg:top-20 z-0 pointer-events-none">
+          <div className="w-[320px] lg:w-[360px] h-[415px] lg:h-[468px] border-[3px] border-ink/10 dark:border-night-paper/10 shadow-[0_8px_24px_rgba(0,0,0,0.06)] dark:shadow-[0_8px_24px_rgba(255,255,255,0.04)] overflow-hidden pointer-events-auto hover:scale-105 transition-transform duration-300">
             <img
-              src="/portrait.png"
+              src="/portrait-about.png"
               alt="Lula Romo"
               className="w-full h-full object-cover grayscale dark:grayscale-0"
             />
           </div>
         </div>
 
-        <p className="fade-in font-display text-xl md:text-2xl italic text-ink-lighter dark:text-night-muted text-center mb-16">
-          "Lula Romo"
-        </p>
+        {/* Portrait — mobile: centered */}
+        <div className="fade-in md:hidden mb-8 flex justify-center">
+          <div className="w-[220px] h-[286px] border-[3px] border-ink/10 dark:border-night-paper/10 overflow-hidden hover:scale-105 transition-transform duration-300">
+            <img
+              src="/portrait-about.png"
+              alt="Lula Romo"
+              className="w-full h-full object-cover grayscale dark:grayscale-0"
+            />
+          </div>
+        </div>
 
-        <div className="fade-in w-12 h-px bg-rule dark:bg-rule-dark mx-auto mb-16" />
+        {/* Text — left-aligned, pushed right with generous gap from portrait */}
+        <div className="relative z-10 text-center md:text-left md:ml-[400px] lg:ml-[460px]">
+          <div className="fade-in mb-4">
+            <h1 className="font-headline text-6xl md:text-8xl lg:text-[10rem] font-normal text-ink dark:text-night-paper leading-[0.85] tracking-tight">
+              I'm Lula
+            </h1>
+          </div>
+
+          <p className="fade-in font-body text-[10px] tracking-[0.45em] uppercase text-ink-lighter dark:text-night-muted mb-3">
+            {t.label}
+          </p>
+
+          <p className="fade-in font-display text-sm text-ink-lighter dark:text-night-muted italic mb-14">
+            Maria de Lourdes Romo López
+          </p>
+
+          <div className="fade-in w-12 h-px bg-rule dark:bg-rule-dark mx-auto md:mx-0 mb-14" />
+        </div>
+      </section>
+
+      <section className="max-w-3xl mx-auto px-6 pb-24 md:pb-32 -mt-8">
 
         {/* Bio paragraphs */}
         <div className="fade-in mb-16">

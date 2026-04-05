@@ -31,7 +31,7 @@ export default function LanguageSplash() {
         className="portrait-transition relative z-10 mb-10 opacity-0"
         style={{ animation: "letterIn 0.8s ease-out 0.2s forwards" }}
       >
-        <div className="w-24 h-24 md:w-28 md:h-28 mx-auto border-2 border-ink/20 dark:border-night-paper/20 overflow-hidden">
+        <div className="w-24 h-24 md:w-28 md:h-28 mx-auto border-2 border-ink/20 dark:border-night-paper/20 overflow-hidden hover:scale-105 transition-transform duration-300">
           <img
             src="/portrait.png"
             alt="Lula Romo"

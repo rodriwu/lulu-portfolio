@@ -1,5 +1,5 @@
 import { useParams, Link } from "react-router-dom";
-import { useEffect } from "react";
+import { useEffect, useState, useCallback } from "react";
 import useFadeIn from "../hooks/useFadeIn";
 import { useLang } from "../context/LanguageContext";
 import articles from "../data/articles";
@@ -70,6 +70,26 @@ export default function Article() {
   const body = lang === "es" ? article.bodyEs : article.bodyEn;
   const outro = lang === "es" ? article.outroEs : article.outroEn;
   const images = printImages[article.id] || [];
+  const [lightbox, setLightbox] = useState(null);
+
+  const closeLightbox = useCallback(() => setLightbox(null), []);
+  const prevImage = useCallback(() => setLightbox((i) => (i > 0 ? i - 1 : images.length - 1)), [images.length]);
+  const nextImage = useCallback(() => setLightbox((i) => (i < images.length - 1 ? i + 1 : 0)), [images.length]);
+
+  useEffect(() => {
+    if (lightbox === null) return;
+    function onKey(e) {
+      if (e.key === "Escape") closeLightbox();
+      if (e.key === "ArrowLeft") prevImage();
+      if (e.key === "ArrowRight") nextImage();
+    }
+    document.body.style.overflow = "hidden";
+    window.addEventListener("keydown", onKey);
+    return () => {
+      document.body.style.overflow = "";
+      window.removeEventListener("keydown", onKey);
+    };
+  }, [lightbox, closeLightbox, prevImage, nextImage]);
 
   // Next article for the transition CTA
   const idx = articles.findIndex((a) => a.id === id);
@@ -189,7 +209,8 @@ export default function Article() {
               {images.map((src, i) => (
                 <div
                   key={i}
-                  className="border border-rule dark:border-rule-dark overflow-hidden"
+                  className="border border-rule dark:border-rule-dark overflow-hidden cursor-pointer hover:opacity-80 transition-opacity"
+                  onClick={() => setLightbox(i)}
                 >
                   <img
                     src={src}
@@ -201,6 +222,51 @@ export default function Article() {
               ))}
             </div>
           </section>
+        )}
+
+        {/* Lightbox */}
+        {lightbox !== null && (
+          <div
+            className="fixed inset-0 z-[200] flex items-center justify-center bg-black/90"
+            onClick={closeLightbox}
+          >
+            {/* Close button */}
+            <button
+              onClick={closeLightbox}
+              className="absolute top-6 right-6 text-white/70 hover:text-white text-3xl bg-transparent border-none cursor-pointer z-10 font-light"
+            >
+              &times;
+            </button>
+
+            {/* Prev */}
+            <button
+              onClick={(e) => { e.stopPropagation(); prevImage(); }}
+              className="absolute left-4 md:left-8 top-1/2 -translate-y-1/2 text-white/50 hover:text-white text-4xl bg-transparent border-none cursor-pointer z-10 font-light"
+            >
+              &lsaquo;
+            </button>
+
+            {/* Image */}
+            <img
+              src={images[lightbox]}
+              alt={`${article.subtitle} — page ${lightbox + 1}`}
+              className="max-h-[90vh] max-w-[90vw] object-contain"
+              onClick={(e) => e.stopPropagation()}
+            />
+
+            {/* Next */}
+            <button
+              onClick={(e) => { e.stopPropagation(); nextImage(); }}
+              className="absolute right-4 md:right-8 top-1/2 -translate-y-1/2 text-white/50 hover:text-white text-4xl bg-transparent border-none cursor-pointer z-10 font-light"
+            >
+              &rsaquo;
+            </button>
+
+            {/* Counter */}
+            <span className="absolute bottom-6 left-1/2 -translate-x-1/2 font-body text-[11px] tracking-widest text-white/50">
+              {lightbox + 1} / {images.length}
+            </span>
+          </div>
         )}
 
         {/* ═══════════════════════════════════════════ */}
