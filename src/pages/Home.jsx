@@ -65,12 +65,12 @@ export default function Home() {
 
         {/* Portrait — mobile */}
         <div
-          className={`md:hidden mb-8 flex justify-center ${
+          className={`md:hidden mb-12 flex justify-center ${
             fromSplash ? "portrait-entrance-mobile" : "fade-in"
           }`}
         >
           <div
-            className="w-[140px] h-[140px] border-[3px] border-ink/10 dark:border-night-paper/10 overflow-hidden hover:scale-105 transition-transform duration-300"
+            className="w-[180px] h-[180px] border-[3px] border-ink/10 dark:border-night-paper/10 overflow-hidden hover:scale-105 transition-transform duration-300"
             style={{ transform: fromSplash ? undefined : "rotate(2deg)" }}
           >
             <img
@@ -82,7 +82,7 @@ export default function Home() {
         </div>
 
         {/* Text */}
-        <div className="relative z-10 text-center md:text-left md:max-w-[65%]">
+        <div className="relative z-10 text-left md:max-w-[65%]">
           <p className="fade-in font-body text-[10px] tracking-[0.45em] uppercase text-ink-lighter dark:text-night-muted mb-6">
             {t.tagline}
           </p>
@@ -93,7 +93,7 @@ export default function Home() {
             Romo
           </h1>
 
-          <div className="fade-in w-12 h-px bg-rule dark:bg-rule-dark md:mx-0 mx-auto mb-10" />
+          <div className="fade-in w-12 h-px bg-rule dark:bg-rule-dark mb-10" />
 
           <p className="fade-in font-body text-[13px] md:text-sm leading-[1.9] text-ink-light dark:text-night-muted max-w-xl">
             {t.bio}

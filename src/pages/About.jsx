@@ -5,6 +5,7 @@ import { useLang } from "../context/LanguageContext";
 const copy = {
   es: {
     label: "Sobre Mí",
+    greeting: "Soy Lula",
     bio: [
       "Soy periodista de formación y escritora de vocación. Egresada de la prestigiosa Escuela de Periodismo Carlos Septién García, una de las instituciones más reconocidas de México en la formación de comunicadores, forjé mi carrera en el exigente mundo del periodismo editorial impreso.",
       "Durante años, mi pluma se especializó en periodismo de viajes y hospitalidad de lujo, colaborando con publicaciones editoriales donde mis reportajes bilingües — redactados con igual maestría en español e inglés — recorrieron los destinos más exclusivos del mundo. Desde los palacios flotantes de Udaipur hasta la majestuosidad del Burj Al Arab en Dubai; desde las playas de Barbados hasta las calles coloniales de Puebla, mi trabajo capturó la esencia de cada lugar con una prosa literaria, sobria y evocadora.",
@@ -23,6 +24,7 @@ const copy = {
   },
   en: {
     label: "About Me",
+    greeting: "I'm Lula",
     bio: [
       "I am a journalist by training and a writer by vocation. A graduate of the prestigious Escuela de Periodismo Carlos Septién García, one of Mexico's most distinguished institutions for the formation of communicators, I built my career in the demanding world of print editorial journalism.",
       "For years, my pen specialized in luxury travel and hospitality journalism, contributing to editorial publications where my bilingual features — written with equal mastery in Spanish and English — traversed the most exclusive destinations on earth. From the floating palaces of Udaipur to the majesty of the Burj Al Arab in Dubai; from the beaches of Barbados to the colonial streets of Puebla, my work captured the essence of each place with literary, sober, and evocative prose.",
@@ -86,7 +88,7 @@ export default function About() {
         <div className="relative z-10 text-center md:text-left md:ml-[400px] lg:ml-[460px]">
           <div className="fade-in mb-4">
             <h1 className="font-headline text-6xl md:text-8xl lg:text-[10rem] font-normal text-ink dark:text-night-paper leading-[0.85] tracking-tight">
-              I'm Lula
+              {t.greeting}
             </h1>
           </div>
 
