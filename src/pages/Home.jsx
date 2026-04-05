@@ -44,7 +44,7 @@ export default function Home() {
   return (
     <main className="bg-parchment dark:bg-night min-h-screen">
       {/* Hero */}
-      <section className="relative max-w-4xl mx-auto px-6 pt-20 pb-16 md:pt-32 md:pb-24 overflow-hidden">
+      <section className="relative max-w-4xl mx-auto px-6 pt-10 pb-10 md:pt-32 md:pb-24 overflow-hidden">
         {/* Portrait — desktop: large, absolute, tilted */}
         <div
           className={`hidden md:block absolute -right-8 lg:right-4 top-16 lg:top-12 z-0 pointer-events-none ${
@@ -63,31 +63,59 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Portrait — mobile */}
-        <div
-          className={`md:hidden mb-12 flex justify-center ${
-            fromSplash ? "portrait-entrance-mobile" : "fade-in"
-          }`}
-        >
+        {/* Mobile: image + text side by side */}
+        <div className="md:hidden flex items-start gap-5 mb-6">
           <div
-            className="w-[180px] h-[180px] border-[3px] border-ink/10 dark:border-night-paper/10 overflow-hidden hover:scale-105 transition-transform duration-300"
-            style={{ transform: fromSplash ? undefined : "rotate(2deg)" }}
+            className={`shrink-0 ${
+              fromSplash ? "portrait-entrance-mobile" : "fade-in"
+            }`}
           >
-            <img
-              src="/portrait.png"
-              alt="Lula Romo"
-              className={`w-full h-full object-cover ${imgFilter}`}
-            />
+            <div
+              className="w-[110px] h-[110px] border-[3px] border-ink/10 dark:border-night-paper/10 overflow-hidden hover:scale-105 transition-transform duration-300"
+              style={{ transform: fromSplash ? undefined : "rotate(2deg)" }}
+            >
+              <img
+                src="/portrait.png"
+                alt="Lula Romo"
+                className={`w-full h-full object-cover ${imgFilter}`}
+              />
+            </div>
+          </div>
+          <div>
+            <p className="fade-in font-body text-[9px] tracking-[0.4em] uppercase text-ink-lighter dark:text-night-muted mb-2">
+              {t.tagline}
+            </p>
+            <h1 className="fade-in font-headline text-[5rem] font-normal text-ink dark:text-night-paper leading-[0.82] tracking-tight">
+              Lula
+              <br />
+              Romo
+            </h1>
           </div>
         </div>
 
-        {/* Text */}
-        <div className="relative z-10 text-left md:max-w-[65%]">
+        {/* Mobile: bio + cta below */}
+        <div className="md:hidden">
+          <div className="fade-in w-12 h-px bg-rule dark:bg-rule-dark mb-5" />
+          <p className="fade-in font-body text-[12px] leading-[1.8] text-ink-light dark:text-night-muted mb-6">
+            {t.bio}
+          </p>
+          <div className="fade-in">
+            <Link
+              to="/contact"
+              className="font-body text-[10px] tracking-[0.35em] uppercase text-ink-lighter dark:text-night-muted no-underline hover:text-ink dark:hover:text-night-paper border-b border-ink-lighter dark:border-night-muted hover:border-ink dark:hover:border-night-paper pb-1 transition-colors"
+            >
+              {t.cta} &rarr;
+            </Link>
+          </div>
+        </div>
+
+        {/* Desktop text */}
+        <div className="hidden md:block relative z-10 text-left md:max-w-[65%]">
           <p className="fade-in font-body text-[10px] tracking-[0.45em] uppercase text-ink-lighter dark:text-night-muted mb-6">
             {t.tagline}
           </p>
 
-          <h1 className="fade-in font-headline text-7xl md:text-[9rem] lg:text-[11rem] font-normal text-ink dark:text-night-paper leading-[0.85] tracking-tight mb-8">
+          <h1 className="fade-in font-headline text-[9rem] lg:text-[11rem] font-normal text-ink dark:text-night-paper leading-[0.85] tracking-tight mb-8">
             Lula
             <br />
             Romo
@@ -95,7 +123,7 @@ export default function Home() {
 
           <div className="fade-in w-12 h-px bg-rule dark:bg-rule-dark mb-10" />
 
-          <p className="fade-in font-body text-[13px] md:text-sm leading-[1.9] text-ink-light dark:text-night-muted max-w-xl">
+          <p className="fade-in font-body text-sm leading-[1.9] text-ink-light dark:text-night-muted max-w-xl">
             {t.bio}
           </p>
 
